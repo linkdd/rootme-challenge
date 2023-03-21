@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rootme-rot13"
+version = "0.1.0"
+description = ""
+authors = ["David Delassus <david.jose.delassus@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rootme_rot13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
